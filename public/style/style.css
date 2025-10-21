@@ -1,0 +1,123 @@
+/* /public/style/style.css */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+    color: #fff;
+
+    justify-self: center;
+}
+
+body {
+    font-family: Helvetica;
+    font-size: 2vw;
+
+    background-color: #3b3b3f;
+}
+
+.home-container,
+.button-container {
+    display: grid;
+    grid-template-columns: auto auto;
+
+    width: 50vw;
+    height: 50vh;
+
+    margin-top: 10vh;
+
+    align-self: center;
+    justify-self: center;
+
+    border: 0.1vw solid #fff;
+    border-radius: 0.5vw;
+}
+.button-container {
+    width: 50vw;
+    height: 10vh;
+
+    margin-top: 5vh;
+
+    border: none;
+    border-radius: none;
+}
+
+button {
+    position: relative;
+
+    width: 20vw;
+    height: 10vh;
+
+    justify-self: center;
+    align-self: center;
+
+    border: none;
+    border-radius: 0.5vw;
+
+    font-size: 2vw;
+}
+.home-btn {
+    border: 0.1vw solid #fff;
+    background-color: transparent;
+
+    color: #fff;
+}
+.home-btn:hover {
+    background-color: #fff;
+    color: #000;
+}
+.home-btn:focus {
+    background-color: transparent;
+    color: #fff;
+}
+.back-btn {
+    background-color: #c95353;
+    color: #fff;
+}
+.back-btn:hover {
+    background-color: #8b3b3b;
+}
+.back-btn:focus {
+    background-color: #c95353;
+}
+.register-btn {
+    background-color: #67c953;
+    color: #fff;
+}
+.register-btn:hover {
+    background-color: #448537;
+}
+.register-btn:focus {
+    background-color: #67c953;
+}
+
+.input-container {
+    display: block;
+
+    flex-direction: column;
+}
+input {
+    display: block;
+
+    width: 20vw;
+    height: 3vw;
+
+    justify-self: center;
+    align-self: center;
+
+    background-color: transparent;
+
+    border: 0.1vw solid #fff;
+    border-radius: 0.5vw;
+}
+label {
+    display: block;
+    color: #fff;
+
+    margin-left: 3vw;
+    margin-top: 7.5vh;
+
+    font-size: 1vw;
+}
