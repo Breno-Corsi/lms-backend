@@ -1,9 +1,9 @@
-// /app/models/books.model.js
+// /app/models/book.model.js
 
 const { DataTypes } = require('sequelize');
 
 module.exports = (sequelize, Sequelize) => {
-    const Books = sequelize.define("books", {
+    const Book = sequelize.define("books", {
         isbn: {
             type: DataTypes.INTEGER,
             primaryKey: true
@@ -25,5 +25,5 @@ module.exports = (sequelize, Sequelize) => {
         timestamps: true
     });
 
-    return Books;
+    return Book;
 };
