@@ -24,7 +24,8 @@ const db = {};
 db.Sequelize = Sequelize;
 db.sequelize = sequelize;
 
-db.tutorials = require("./tutorial.model.js")(sequelize, Sequelize);
+db.users = require("./user.model.js")(sequelize, Sequelize);
+db.books = require("./book.model.js")(sequelize, Sequelize);
 
 db.sequelize.sync();
 
